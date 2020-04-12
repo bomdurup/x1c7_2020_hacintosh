@@ -22,11 +22,12 @@ BIOS : 1.16 (31 MAR 2020, N2QET22W)
 Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)</br>
 Stucks right before Apple kernel
 
+```
   26:526 11:424 AAPL: [EB|#LOG:EXITBS:START] 2020-04-13T02:10:07
-
+```
 or
-
+```
   OCSMC : OCSMC: SmcReadValue Key 4D534163 Size 2
-
+```
 
 Will post EFI ASAP
