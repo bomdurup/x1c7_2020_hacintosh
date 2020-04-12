@@ -3,8 +3,8 @@ Lenovo Thinkpad X1 Carbon 7th 20R1 (2020, comet lake) Hackintosh
 **WORK IN PROGRESS**
 
 ## Brief info
-X1 Carbon 7th Gen - (Type 20R1, 20R2) Laptop (ThinkPad) - Type 20R1 
-i7-10510u 4core Comet Lake / LPDDR3 16GB onboard / UHD620
+X1 Carbon 7th Gen - (Type 20R1, 20R2) Laptop (ThinkPad) - Type 20R1 </br>
+i7-10510u 4core Comet Lake / LPDDR3 16GB onboard / UHD620 </br>
 BIOS : 1.16 (31 MAR 2020, N2QET22W)
 
 <pre><code>
@@ -19,7 +19,7 @@ BIOS : 1.16 (31 MAR 2020, N2QET22W)
 </code></pre>
 
 ## Status
-Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)
+Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)</br>
 Stucks right before Apple kernel
 
   26:526 11:424 AAPL: [EB|#LOG:EXITBS:START] 2020-04-13T02:10:07
