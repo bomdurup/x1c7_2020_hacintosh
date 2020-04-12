@@ -1,6 +1,7 @@
 # x1c7_2020_hacintosh
-Lenovo Thinkpad X1 Carbon 7th 20R1 (2020, comet lake) Hackintosh
-**WORK IN PROGRESS**
+Lenovo Thinkpad X1 Carbon 7th 20R1 (2020, comet lake) Hackintosh</br>
+**WORK IN PROGRESS**</br>
+**READ BEFORE USE!!**
 
 ## Brief info
 X1 Carbon 7th Gen - (Type 20R1, 20R2) Laptop (ThinkPad) - Type 20R1 </br>
@@ -18,9 +19,13 @@ BIOS : 1.16 (31 MAR 2020, N2QET22W)
   CSM Support No
 </code></pre>
 
+Based on dumped DSDT, this machine has correct EC name - no EC fix needed</br>
+Unable to set XHCI Handoff, CFG Lock, Legacy RTC on BIOS - should be fixed</br>
+Based on dumped memory map, this machine has plenty of space @ 0x0001000 - no slide values needed
+
 ## Status
 Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)</br>
-Stucks right before Apple kernel
+**Stucks right before Apple kernel**
 
 ```
   26:526 11:424 AAPL: [EB|#LOG:EXITBS:START] 2020-04-13T02:10:07
@@ -30,4 +35,10 @@ or
   OCSMC : OCSMC: SmcReadValue Key 4D534163 Size 2
 ```
 
-Will post EFI ASAP
+#### Applied fixes
+
+- CFG Lock (MSR 0xE2) fix <br>
+with UEFI firmware N2QET22W, 0x3E is what you should change to 0x00
+```One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3E```
+- CPUID, platform-id, device-id fix<br>
+
