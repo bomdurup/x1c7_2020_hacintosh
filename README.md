@@ -8,6 +8,7 @@ i7-10510u 4core Comet Lake / LPDDR3 16GB onboard / UHD620
 BIOS : 1.16 (31 MAR 2020, N2QET22W)
 
 `Security Chip DISABLED
+
 `Fingerprint 	Predesktop Authentication DISABLED
 `Wireless WAN DISABLED (since my model does not came with WWAN and also not supported)
 `Fingerprint Reader DISABLED
