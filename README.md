@@ -25,7 +25,10 @@ Based on dumped memory map, this machine has plenty of space @ 0x0001000 - no sl
 
 ## Status
 Cannot boot from both opencore (0.5.5 - 0.5.8) and clover (r5101 - r5111)</br>
-**Stucks right before Apple kernel**
+
+- Clover : **stucks with +++++++++++++++++** (with every memory fix drivers on planet)
+
+- Opencore : **Stucks right before Apple kernel**
 
 ```
   26:526 11:424 AAPL: [EB|#LOG:EXITBS:START] 2020-04-13T02:10:07
@@ -34,6 +37,7 @@ or
 ```
   OCSMC : OCSMC: SmcReadValue Key 4D534163 Size 2
 ```
+Tried both Clover and Opencore but mainly testing with Opencore
 
 #### Applied fixes
 
