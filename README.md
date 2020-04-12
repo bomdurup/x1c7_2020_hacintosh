@@ -7,6 +7,7 @@ X1 Carbon 7th Gen - (Type 20R1, 20R2) Laptop (ThinkPad) - Type 20R1
 i7-10510u 4core Comet Lake / LPDDR3 16GB onboard / UHD620
 BIOS : 1.16 (31 MAR 2020, N2QET22W)
 
+<pre><code>
   Security Chip DISABLED
   Fingerprint 	Predesktop Authentication DISABLED
   Wireless WAN DISABLED (since my model does not came with WWAN and also not supported)
@@ -15,7 +16,7 @@ BIOS : 1.16 (31 MAR 2020, N2QET22W)
   Intel SGX Control DISABLED
   UEFI/Legacy Boot UEFI Only
   CSM Support No
-
+</code></pre>
 
 ## Status
 Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)
