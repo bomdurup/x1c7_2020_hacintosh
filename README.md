@@ -24,7 +24,7 @@ Unable to set XHCI Handoff, CFG Lock, Legacy RTC on BIOS - should be fixed</br>
 Based on dumped memory map, this machine has plenty of space @ 0x0001000 - no slide values needed
 
 ## Status
-Cannot boot from both opencore (0.5.6 - 0.5.8) and clover (r5101 - r5108)</br>
+Cannot boot from both opencore (0.5.5 - 0.5.8) and clover (r5101 - r5111)</br>
 **Stucks right before Apple kernel**
 
 ```
