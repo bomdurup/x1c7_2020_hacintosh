@@ -1,5 +1,12 @@
 # x1c7_2020_hacintosh
 Lenovo Thinkpad X1 Carbon 7th 20R1 (2020, comet lake) Hackintosh</br>
+
+**THIS REPO IS ARCHIVED**</br>
+**YOU CAN RUN MAC OS NOW BUT I GAVE UP BEFORE OPENCORE 0.6.7 RELEASED **</br>
+Some comet lake based laptops/desktops could not run opencore, but now you can. link below is the moment when this issue is finally solved.</br>
+https://github.com/acidanthera/bugtracker/issues/1486#issuecomment-781062621</br>
+**I'll leave the original content below, since I don't have this laptop anymore. this is just a record what I've done**</br>
+
 **TL;DR : You cannot hackintosh on intel 10th generation based thinkpad at the moment without modding your BIOS**</br>
 **AFAIK, There is no way modding and flashing BIOS for this generation Thinkpads.**</br>
 **I'll keep this repo just to let people know why I failed (and you will too)**
